@@ -2,9 +2,9 @@ from django.contrib import admin
 
 # Register your models here.
 
-from apps.reviews.models import Review
+from apps.reviews.models import Reviews
 
-admin.site.register(Review)
+admin.site.register(Reviews)
 
 admin.site.site_header = "Review Admin"
 admin.site.site_title = "Review Admin"

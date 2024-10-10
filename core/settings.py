@@ -43,12 +43,12 @@ INSTALLED_APPS = [
 
     'drf_yasg',
 
-    'hotels.apps',
-    'bookings.apps',
-    'users.apps',
-    'notifications.apps',
-    'reviews.apps',
-    'payments.apps',
+    'apps.hotels',
+    'apps.bookings',
+    'apps.users',
+    'apps.notifications',
+    'apps.reviews',
+    'apps.payments',
     
 
 ] + DEFAULT_INSTALLED_APPS
